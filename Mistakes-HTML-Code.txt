@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<!-- Eunice Kaseu 06/18/2026 -->
+
+
+<html lang="en">
+
+
+<head>
+(missing)<meta charset='utf-8'>
+
+(wrong angle bracket. should be <title>HTML Tutorial Example</title>)
+<title>HTML Tutorial Example</title<
+
+(missing meta description and author)
+
+
+</head>
+
+
+<body>
+
+(missing the opening tag <H1>)
+My First Website </H1>
+
+
+<p>Look at this! I've already created my first homepage!</p>
+
+
+
+
+(Error the <h3>and<ul> are combined)
+
+<h3><ul> I hope you learn about these topics in our class this semester: </h3>
+
+(closing tag </li> is missing)
+<li> How to create a basic web template that you can use for any project
+
+
+<li> How to use CSS so your web pages look AMAZING!</li>
+
+(</li> and </ul> combined in the wrong order)
+<li> How to make webpages that look super on a mobile device as well as a laptop. </ul>
+
+
+</li>
+
+
+</html>
