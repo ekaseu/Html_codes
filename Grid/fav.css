@@ -52,11 +52,11 @@ figcaption
 
 .wide
  {
-grid-column: span2;
+grid-column: span 2;
 }
 .tall
 {
-grid-row: span2;
+grid-row: span 2;
 }
 .big{
     grid-column: span 2;
