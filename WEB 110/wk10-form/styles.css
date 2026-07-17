@@ -1,0 +1,67 @@
+* Eunice Kaseu
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: blue;  
+ margin: 20px; 
+}
+* container {
+    max-width: 700px;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+* header {
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+* header img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+* h2 {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 2em;
+}
+* label{
+    display: block;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #21456d;
+}
+* Mobile Grid{
+    padding: 10px;
+    border: 2px solid#ccc;
+    border-radius: ;
+    margin-bottom: 30px;
+}
+* radio {
+    margin: 0;
+}
+* radio-option {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+ button {
+  padding: 12px; 
+  margin-top: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 300px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+*VALID INPUTS {
+    input:user-valid
+    user-valid
+}
