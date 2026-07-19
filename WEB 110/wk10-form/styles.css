@@ -1,13 +1,13 @@
 /*Eunice Kaseu 07/17/2026 */
 body {
  font-family: Arial, Helvetica, sans-serif;
- background-color: hotpink;  
+ background-color: whitesmoke;  
  margin: 20px; 
 }
 /* CENTER FORM */
 .container {
     max-width: 700px;
-    background-color: rgb(139, 67, 139);
+    background-color:rgb(65, 98, 89);
     padding: 20px;
     border-radius: 8px;
     margin: 0 auto;
