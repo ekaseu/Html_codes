@@ -7,7 +7,7 @@ body {
 /* CENTER FORM */
 .container {
     max-width: 700px;
-    background-color:rgb(65, 98, 89);
+    background-color:whitesmoke;
     padding: 20px;
     border-radius: 8px;
     margin: 0 auto;
@@ -49,11 +49,15 @@ input,select {
     margin: 0;
 }
  /* RADIO GROUP */
- .radio-option{
-display: flex;
-align-items: center;
-gap: 10px;
+
+.radio-option {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: 0 auto;
+	width: 200px;
 }
+
 /* SUBMIT BUTTON */
  button {
     background-color: #21456d;
@@ -78,12 +82,12 @@ select:user-valid {
  /* INVALID INPUTS */
  input:user-invalid,
 select:user-invalid {
-   background-color:rgb(179, 107, 107);
-    border: red; 
+   background-color:rgb(254, 142, 142);
+    border: 2px solid red; 
 }
 
 input[type=text]:focus,
 input[type=date]:focus,
 select:focus {
-    background-color:blue;
+    background-color:rgb(174, 174, 241);
 }
