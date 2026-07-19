@@ -1,10 +1,10 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <!--Eunice Kaseu 07/16/2026-->
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <time>Contact Us</time>
-        <link rel="stylesheet">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 <body>
     <div class="container">
@@ -16,7 +16,7 @@
                 <form action="https://webdevbasics.net/scripts/demo.php" method="post">
                     <div class="form-group">
                         <label for="firstName">First Name: </label>
-                        <input type="tex" id="firstName" name="firstName" maxlength="30" required>
+                        <input type="text" id="firstName" name="firstName" maxlength="30" required>
                     </div>
 
                    <div class="form-group">
@@ -33,7 +33,7 @@
                         <label for="Phone">Phane:</label>
                         <input type="tel"
                         id="phone" 
-                        name="phone" 12456-7890 >
+                        name="phone" placeholder="123-456-7890" >
                     </div>
                     
                     <div class="form-group">
@@ -44,16 +44,25 @@
                                 name="contactPreference" value="Email"required>
                                 <label for="contactEmail">Email</label>
                             </div>
-                        <div class="form-group">
-                            
-                            <div class="contact-options">
-                                <div class="radio-option">
-                                    <input type="radio" id="contactRadio" name="contactnoPreference"value="Radio"required>
-                                </div>
+                            <div class="radio-option">
+                                <input type="radio" id="contactText" 
+                                name="contactPreference" value="Text" required>
+                                <label for="contactText">Text</label>
+                            </div>
+                                
+                            <div class="radio-option">
+                                <input type="radio" id="contactNoPreference" 
+                                name="contactPreference" value="NoPreference"required>
+                                <label for="contactNoPreference">No Preference</label>
                             </div>
                         </div>
+                    </div>
 
+                    <div class="form-group">
+                        <button type="submit">Submit</button>
 
+                    </div>
+                        
 
                 </form>
             </main>

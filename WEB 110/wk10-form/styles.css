@@ -1,12 +1,13 @@
-* Eunice Kaseu
+/*Eunice Kaseu 07/17/2026 */
 body {
  font-family: Arial, Helvetica, sans-serif;
- background-color: blue;  
+ background-color: hotpink;  
  margin: 20px; 
 }
-* container {
+/* CENTER FORM */
+.container {
     max-width: 700px;
-    background-color: blue;
+    background-color: rgb(139, 67, 139);
     padding: 20px;
     border-radius: 8px;
     margin: 0 auto;
@@ -14,42 +15,49 @@ body {
     grid-template-columns: 1fr;
     gap: 20px;
 }
-* header {
+ header {
     text-align: center;
     padding-bottom: 15px;
     margin-bottom: 20px;
 }
-* header img {
+ header img {
     max-width: 100px;
     height: auto;
     margin-bottom: 10px;
 }
-* h2 {
+  h2 {
     margin-top: 0px;
     font-weight: bold;
     font-size: 2em;
 }
-* label{
+  label{
     display: block;
     margin-left: 5px;
     font-weight: bold;
     color: #21456d;
 }
-* Mobile Grid{
+
+/* Mobile Grid */
+/* INPUTS */
+input,select {
     padding: 10px;
     border: 2px solid#ccc;
-    border-radius: ;
+    border-radius: 100px;
     margin-bottom: 30px;
 }
-* radio {
+  input[type="radio"] {
     margin: 0;
 }
-* radio-option {
+ /* RADIO GROUP */
+ .radio-option{
 display: flex;
 align-items: center;
 gap: 10px;
 }
+/* SUBMIT BUTTON */
  button {
+    background-color: #21456d;
+    color: #ccc;
   padding: 12px; 
   margin-top: 20px;
   border-radius: 6px;
@@ -61,7 +69,21 @@ footer {
     margin-top: 20px;
     padding-top: 15px;
 }
-*VALID INPUTS {
-    input:user-valid
-    user-valid
+ /* VALID INPUTS */
+input:user-valid,
+select:user-valid {
+    background-color: lightseagreen;
+    border: green;
+} 
+ /* INVALID INPUTS */
+ input:user-invalid,
+select:user-invalid {
+   background-color:rgb(179, 107, 107);
+    border: red; 
+}
+
+input[type=text]:focus,
+input[type=date]:focus,
+select:focus {
+    background-color:blue;
 }
