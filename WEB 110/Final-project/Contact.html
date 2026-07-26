@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--Eunice Kaseu 07/16/2026-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Get in Touch</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <div class="container">
+        <header>
+            
+
+<nav>
+    <b>
+        <a href="index.html">Home</a>
+        <a href="Menu.html"> Menu </a>
+        <a href="Contact.html">Contact</a>
+    </b>
+   </nav>
+
+
+<img class="logo" src="photos/restaurant.jpg" alt = "Our restaurant">
+            <h1>Get in touch with us</h1>
+            <p>Need catering services? Please fill out the form below.</p>
+        </header>
+            <main>
+                <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+                    <div class="form-group">
+                        <label for="firstName"> First Name: </label>
+                        <input type="text" id="firstName" name="firstName" maxlength="30" required>
+                    </div>
+
+                   <div class="form-group">
+                        <label for="LastName"> Last Name: </label>
+                        <input type="text" id="LastName" maxlength="30" required>
+                   </div>
+
+                    <div class="form-group">
+                        <label for="Email">Email:</label>
+                        <input type="email" id="Email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Phone"> Phone: </label>
+                        <input type="tel"
+                        id="Phone" 
+                        name="Phone" placeholder="123-456-7890" >
+                    </div>
+                    <div class="form-group">
+                        <label for="Date">Date of the Event</label>
+                        <input type="date"
+                        id="Date"
+                        min="2026-08-01"
+                        max="2027-02-01"
+                        name="Date"/>
+                        <span class="note">Must be within the next six months</span>
+                    </div>
+                    
+
+                    <div class="form-group">
+                        <button type="submit"> Submit </button>
+
+                    </div>
+                        
+
+                </form>
+            </main>
+            <footer>
+ <h5>Sulwe's Resturant &copy; 2026</h5>
+            </footer>
+    
+    </div>
+</body>
